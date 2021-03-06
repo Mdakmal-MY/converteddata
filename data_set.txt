@@ -1,0 +1,24 @@
+
+variable        sample data         received data                   humanize data
+========        ===========         =============                   =============
+frame_header    fe dc               0xfe 0xdc                       --
+version         01                  0x1                             1
+device_mac      25 ab 4e a3 25 32   0x83 0x31 0x40 0x6e 0x6b 0x6b   83:31:40:6e:6b:6b
+session         00 00 00 05         0x0 0x2 0x46 0x68               --
+command         03                  0x3                             --
+length          00 30               0x0 0x4                         --
+
+pm_2_5          00 00 00 ff         0x0 0x0 0x0 0x0                 0
+pm_10           00 00 01 07         null                            --
+noise_db        00 00 03 54         null                            --
+noice_c         ff ff ff 9b         null                            --
+humidity        00 00 02 92         null                            --
+wind_direction  00 00 00 01         null                            --
+wind_speed      00 00 00 15         null                            --
+atmo_pressure   00 01 8b cb         null                            --
+tsp             00 00 01 00         null                            --
+null            00 00 00 00         null                            --
+null            00 00 00 00         null                            --
+null            00 00 00 00         null                            --
+
+checksum        00                  0x0                             --
